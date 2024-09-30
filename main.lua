@@ -35,6 +35,6 @@ end
 function love.draw()
 	love.graphics.setColor(20 / 255, 200 / 255, 200 / 255)
 	love.graphics.rectangle("fill", player.x, player.y, 100, 20)
-	love.graphics.setColor(100 / 255, 200 / 255, 20 / 255)
+	love.graphics.setColor(1, 1, 1)
 	love.graphics.line(player.x + 20, player.y + 20, player.x + 100, player.y + 10)
 end
