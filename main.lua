@@ -9,7 +9,7 @@ local player = {
 }
 
 -- We want a speed of 200 pixels per move.
-local SPEED = 200
+local SPEED = 100
 
 function love.load()
 	-- load gameplay
